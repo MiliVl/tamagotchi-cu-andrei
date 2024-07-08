@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tamagotchi Game</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Tamagotchi Game</h1>
+    <img id="petImg" src="gaina.jpg" alt="Pet">
+    <h2 id="name" class="italic"></h2> 
+    <div class="action-btn">
+      <button id="feedBtn">Feed</button>
+      <button id="playBtn">Play</button>
+    </div>
+
+    <div class="status">
+      <p id="health">Health:</p>
+      <progress id="healthProgress" max="100" value="100"></progress>
+      <span id="healthIndicator"></span>
+    </div>
+
+    <div class="status">
+      <p id="happiness">Happiness:</p>
+      <progress id="happinessProgress" max="100" value="100"></progress>
+      <span id="happinessIndicator"></span>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
